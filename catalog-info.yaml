@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "new-test"
+  description: "test spring"
+  annotations:
+    github.com/project-slug: paul-hopper/test-spring
+    backstage.io/techdocs-ref: url:https://github.com/paul-hopper/test-spring
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "paulcroarkin"
